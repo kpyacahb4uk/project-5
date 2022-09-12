@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    height: 140px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    margin: 50px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    color: #E50043;
+}
+
+
+.links {
+    font-family: 'Arial';
+    font-size: 50px;
+    line-height: 57px;
+    color: #E50043;
+    margin: 50px;
+}
+
+.links > li:last-of-type {
+    margin-right: 0px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+}
+
+.hero-block {
+    display: flex;
+    background-image: url(img/evian_origins_logo.png);
+    background-size: cover;
+    height: 950px;
+    justify-content: center;
+}
+
+.hero-block-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    margin-top: 590px;
+    color: #E50043;
+}
+
+.our-water {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px;
+    height: 280px;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;  
+}
+
+.our-water-text {
+    margin: 24px;
+}
+
+.our-water-text:last-of-type {
+    margin-top: 0px;
+}
+
+.bottles-img {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 48px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.bottles-names {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.second {
+    display: flex;
+    margin: 150px;
+    height: 280px;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    font-family: 'Arial';
+    font-size: 25px;
+    line-height: 29px;  
+}
+.glass {
+    margin: 30px 80px 30px 80px;
+}
+
+.second-text-container {
+    display:flex;
+    flex-wrap:wrap;
+}
+.second-text {
+    margin-top: 30px;
+    width: 100%
+}
+.second-text-1 {
+    width: 100%;
+}
+
+.footer {
+    height: 140px;
+    background-color: #F8BFC7;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-text {
+    padding: 50px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    color: white;
+}
