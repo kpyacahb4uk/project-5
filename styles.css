@@ -6,7 +6,7 @@
 
 .header {
     display: flex;
-    height: 140px;
+    padding: 50px;
     justify-content: space-between;
     position: fixed;
     width: 100%;
@@ -14,7 +14,6 @@
 
 .logo {
     display: flex;
-    margin: 50px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
@@ -29,7 +28,6 @@
     font-size: 50px;
     line-height: 57px;
     color: #E50043;
-    margin: 50px;
 }
 
 .links > li:last-of-type {
@@ -48,6 +46,7 @@ li {
     background-size: cover;
     height: 950px;
     justify-content: center;
+    align-items: center;
 }
 
 .hero-block-text {
@@ -56,7 +55,6 @@ li {
     font-weight: 400;
     font-size: 100px;
     line-height: 115px;
-    margin-top: 590px;
     color: #E50043;
 }
 
@@ -64,7 +62,8 @@ li {
     display: flex;
     flex-wrap: wrap;
     margin: 150px;
-    height: 280px;
+    width: 1040px;
+    margin: 150px auto;
     border: 3px solid #F8BFC7;
     border-radius: 20px;
     font-family: 'Arial';
@@ -80,27 +79,25 @@ li {
     margin-top: 0px;
 }
 
-.bottles-img {
-    display: flex;
-    margin-top: 150px;
-    margin-bottom: 48px;
-    justify-content: space-around;
-    width: 100%;
-}
+.bottles {
+    width: 1040px;
+    margin: 0 auto;
 
-.bottles-names {
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Arial';
     font-size: 25px;
     line-height: 29px;
 }
 
+p {
+    text-align: center;
+}
+
 .second {
     display: flex;
-    margin: 150px;
-    height: 280px;
+    margin: 150px auto;
+    width: 1040px;
     border: 3px solid #F8BFC7;
     border-radius: 20px;
     font-family: 'Arial';
@@ -124,14 +121,13 @@ li {
 }
 
 .footer {
-    height: 140px;
+    padding: 50px;
     background-color: #F8BFC7;
     display: flex;
     justify-content: flex-start;
 }
 
 .footer-text {
-    padding: 50px;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
